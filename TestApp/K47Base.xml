@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<KonfliktData>
+  <Games>
+    <Game>Konflikt '47</Game>
+    <Game>Bolt Action</Game>
+  </Games>
+  <Books>
+    <Book game="Konflikt '47">Konflikt '47 Rulebook</Book>
+    <Book game="Konflikt '47">Konflikt '47: Resurgence</Book>
+    <Book game="Bolt Action">Armies of the United States</Book>
+    <Book game="Bolt Action">Armies of Great Britain</Book>
+    <Book game="Bolt Action">Bolt Action Campaign: Market Garden</Book>
+    <Book game="Bolt Action">Bolt Action Campaign: New Guinea</Book>
+    <Book game="Bolt Action">Bolt Action Campaign: Sea Lion Part 2 - Operation Gigant</Book>
+    <Book game="Bolt Action">Bolt Action Campaign: Operation Sea Lion</Book>
+    <Book game="Bolt Action">Bolt Action Campaign: Battle of the Bulge</Book>
+    <Book game="Bolt Action">Bolt Action Campaign: The Road to Berlin</Book>
+    <Book game="Bolt Action">Armies of Germany (2nd Edition)</Book>
+    <Book game="Bolt Action">Armies of the Soviet Union</Book>
+    <Book game="Bolt Action">Armies of France and the Allies</Book>
+    <Book game="Bolt Action">Armies of Imperial Japan</Book>
+    <Book game="Bolt Action">Armies of Italy and the Axis</Book>
+    <Book game="Bolt Action">Tank War</Book>
+    <Book game="Bolt Action">Bolt Acion Rulebook (2nd Edition)</Book>
+    <Book game="Bolt Action">Battleground Europe: D-Day to Germany</Book>
+    <Book game="Bolt Action">Germany Strikes!: Early War in Europe</Book>
+    <Book game="Bolt Action">Ostfront: Barbarossa to Berlin</Book>
+    <Book game="Bolt Action">Empire in Flames: The Pacific and the Far East</Book>
+    <Book game="Bolt Action">Duel in the Sun: The African and Italian Campaigns</Book>
+  </Books>
+  <UnitStructures>
+    <UnitStructure book="Konflikt '47 Rulebook">
+      <Name>Reinforced Platoon</Name>
+      <SubUnit minimum="1" maximum="1">Lieutenant</SubUnit>
+      <SubUnit minimum="2" maximum="5">Infantry Squad</SubUnit>
+      <SubUnit minimum="0" maximum="1">Captain or Major</SubUnit>
+      <SubUnit minimum="0" maximum="1">Medic</SubUnit>
+      <SubUnit minimum="0" maximum="1">Forward Observer</SubUnit>
+      <SubUnit minimum="0" maximum="1">Machine Gun Team</SubUnit>
+      <SubUnit minimum="0" maximum="1">Mortar Team</SubUnit>
+      <SubUnit minimum="0" maximum="1">Sniper Team</SubUnit>
+      <SubUnit minimum="0" maximum="1">Flamethrower Team</SubUnit>
+      <SubUnit minimum="0" maximum="2">Anti-tank Team</SubUnit>
+      <SubUnit minimum="0" maximum="1">Field Artillery or Anti-tank Gun</SubUnit>
+      <SubUnit minimum="0" maximum="1">Armoured Car, Scout Walker or Light Walker</SubUnit>
+      <SubUnit minimum="0" maximum="1">Tank, Tank Destroyer, Medium (or heavier) Walker, Anti-Aircraft or SP Artillery</SubUnit>
+      <SubUnit minimum="0">Transport Vehicle</SubUnit>
+    </UnitStructure>
+    <UnitStructure book="Konflikt '47: Resurgence">
+      <Name>Reinforced Armoured/Mechanized Platoon</Name>
+      <SubUnit minimum="" maximum=""></SubUnit>
+    </UnitStructure>
+  </UnitStructures>
+</KonfliktData>
