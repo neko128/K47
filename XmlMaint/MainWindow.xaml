@@ -5,8 +5,62 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:XmlMaint"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Konflikt '47 XML Maintenance App" Height="450" Width="450">
+    <Grid Name="mainGrid">
+        <DockPanel>
+            <WrapPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right">
+                <Button Height="20" Width="50" Margin="10,5,10,5">OK</Button>
+                <Button Height="20" Width="50" Margin="10,5,15,5">Save</Button>
+            </WrapPanel>
+            <Label DockPanel.Dock="Top" Background="Red"></Label>
+            <Label DockPanel.Dock="Left" Background="Yellow"></Label>
+            <Label DockPanel.Dock="Right" Background="Orange"></Label>
+            <TabControl>
+                <TabItem Header="Games">
+                    <StackPanel>
+                        <Label Margin="15,5,5,5"
+                               HorizontalAlignment="Left">
+                            Games
+                        </Label>
+                        <ComboBox Name="gamesCmbBox"
+                                  Width="150"
+                                  Margin="15,5,5,5"
+                                  HorizontalAlignment="Left"
+                                  SelectionChanged="gamesCmbBox_SelectionChanged"/>
+
+                        <Separator Margin="5,5,5,5"/>
+
+                        <WrapPanel>
+                            <Label Margin="20,5,5,5">Game Name:</Label>
+                            <TextBox Name="gamesTxtBox" 
+                                 Margin="5,5,5,5"
+                                 Width="200"
+                                 HorizontalAlignment="Left"/>
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <Label Margin="20,5,5,5">Game Value:</Label>
+                            <TextBox Name="gamesValTxtBox" 
+                                 Margin="5,5,5,5"
+                                 Width="200"
+                                 HorizontalAlignment="Left"/>
+                        </WrapPanel>
+
+                        <Separator Margin="5,5,5,5"/>
+
+                        <WrapPanel DockPanel.Dock="Bottom"
+                                   HorizontalAlignment="Left"
+                                   Margin="15,5,10,5">
+                            <Button Height="20" Width="50" Margin="10,5,10,5">New...</Button>
+                            <Button Height="20" Width="50" Margin="10,5,15,5">Save</Button>
+                        </WrapPanel>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Books"></TabItem>
+                <TabItem Header="Faction"></TabItem>
+                <TabItem Header="Unit Structures"></TabItem>
+                <TabItem Header="Units"></TabItem>
+            </TabControl>
+        </DockPanel>
     </Grid>
 </Window>
